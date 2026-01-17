@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { Github, Linkedin, Mail, Download, Moon, Sun, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, Download, Moon, Sun } from "lucide-react";
 
 // --- Small reusable Typewriter (no external libs) ---
 function Typewriter({ words, speed = 80, pause = 1200 }: { words: string[]; speed?: number; pause?: number }) {
